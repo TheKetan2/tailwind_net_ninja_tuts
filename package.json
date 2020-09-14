@@ -1,0 +1,23 @@
+{
+  "name": "tailwind_net_ninja_tuts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "tailwindcss build src/styles.css -o public/styles.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheKetan2/tailwind_net_ninja_tuts.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TheKetan2/tailwind_net_ninja_tuts/issues"
+  },
+  "homepage": "https://github.com/TheKetan2/tailwind_net_ninja_tuts#readme",
+  "dependencies": {
+    "tailwindcss": "^1.8.10"
+  }
+}
