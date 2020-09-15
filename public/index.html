@@ -6,8 +6,8 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body class="text-gray-600 font-serif">
-    <div>
-      <div>
+    <div class="grid md:grid-cols-3">
+      <div class="md:col-span-1">
         <nav>
           <div>
             <h1 class="font-bold uppercase p-4 border-b border-gray-200">
@@ -28,10 +28,18 @@
         </nav>
       </div>
       <!-- end of nav-->
-      <main class="px-16 py-16 bg-gray-100">
+      <main class="px-16 py-16 bg-gray-100 md:col-span-2">
         <div class="flex justify-center md:justify-end text-red-400">
-          <a href="">Login</a>
-          <a class="ml-5" href="">Signup</a>
+          <a
+            class="border-red-500 md:border-2 text-red-400 bg-red-100 rounded-full py-2 px-3 uppercase text-xs cursor-pointer tracking-wider"
+            href=""
+            >Login</a
+          >
+          <a
+            class="border-red-500 md:border-2 ml-5 text-red-400 bg-red-100 rounded-full py-2 px-3 uppercase text-xs cursor-pointer tracking-wider"
+            href=""
+            >Signup</a
+          >
         </div>
 
         <header>
@@ -42,7 +50,7 @@
           <h4 class="font-bold mt-12 pb-2 border-b border-gray-200">
             Latest Recipies
           </h4>
-          <div class="mt-8">
+          <div class="mt-8 grid lg:grid-cols-3 gap-10">
             <!-- card goes here-->
             <div
               class="bg-white rounded overflow-hidden shadow-md relative mt-10"
@@ -114,7 +122,11 @@
             <!-- cards go here-->
           </div>
           <div class="flex justify-center">
-            <div class="text-red-400 bg-red-100 p-2">Load more</div>
+            <div
+              class="text-red-400 bg-red-100 p-2 rounded-full py-2 px-3 uppercase text-xs cursor-pointer tracking-wider"
+            >
+              Load more
+            </div>
           </div>
         </div>
       </main>
